@@ -48,6 +48,9 @@ int main (int argc, char **argv)
 
 		printf("\nAvailable Mixings: \n  0  No mix\n  1  CCPM 120°\n  2  CCPM 120° (Spektrum)\n");
 
+		printf("Select a device and mixing with the CLI as follows:\n"
+			"ppm2tx <dev> <mixing>\n")
+
 		return 0;
 	}
 
